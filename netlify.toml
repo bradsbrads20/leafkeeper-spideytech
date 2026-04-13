@@ -1,7 +1,12 @@
 [build]
-  command = "cd frontend && npm run build"
+  command = "cd frontend && npm install && npm run build"
   publish = "frontend/dist"
 
+# Optional: Specify Node version
+[build.environment]
+  NODE_VERSION = "18"
+
+# Handle redirects for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
