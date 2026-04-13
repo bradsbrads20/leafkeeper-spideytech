@@ -1,0 +1,162 @@
+.container {
+  background: white;
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #2d6a4f;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.progress-section {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f0fdf4;
+  border-radius: 20px;
+}
+
+.intake-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+.goal-text {
+  color: #52796f;
+  margin-bottom: 15px;
+}
+
+.progress-bar-container {
+  background: #e0e0e0;
+  border-radius: 25px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #2d6a4f, #40916c);
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 25px;
+}
+
+.message {
+  background: #d8f3dc;
+  color: #1b4332;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.water-btn {
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+}
+
+.water-btn:hover {
+  background: #1b4332;
+  transform: scale(1.02);
+}
+
+.custom-form {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.custom-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #d8f3dc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.custom-btn {
+  background: #52b788;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.undo-btn {
+  background: #e9c46a;
+  color: #2d6a4f;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.chart-section {
+  margin-top: 30px;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.bar-item {
+  text-align: center;
+  flex: 1;
+}
+
+.bar {
+  background: #52b788;
+  width: 100%;
+  min-height: 5px;
+  border-radius: 10px;
+  transition: height 0.3s ease;
+}
+
+.bar-label {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+  color: #52796f;
+}
+
+.bar-value {
+  display: block;
+  font-size: 10px;
+  color: #2d6a4f;
+}
+
+.plant-tip {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e9f5e9;
+  border-radius: 15px;
+  color: #2d6a4f;
+  text-align: center;
+  font-size: 14px;
+}
