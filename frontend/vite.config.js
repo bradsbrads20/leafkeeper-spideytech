@@ -3,11 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 3000,
-    proxy: {
-      '/api/python': 'http://localhost:5000',
-      '/api/go': 'http://localhost:8080'
-    }
-  }
+  root: '.',  // This means current directory (frontend/)
+  // or don't specify root - it defaults to where config is
 })
